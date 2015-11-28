@@ -1,1 +1,12 @@
-style.css
+a {
+  padding-top: 7px;
+  padding-right: 10px;
+}
+
+.col-sm-3 {
+  padding-top: 4px;
+}
+
+#spr {
+  margin: 33px 0px 0px 0px;
+}
