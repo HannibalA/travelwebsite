@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/* Carousel text animations */
+$('#myCarousel').on('slide.bs.carousel',function(){
+$('.carousel-caption').fadeOut(300);
+})
+$('#myCarousel').on('slid.bs.carousel',function(){
+ $('.carousel-caption').fadeIn(600);
+})
+>>>>>>> 40ebba5606ab3241c90ed8934bed0ee08d61a43e
 
 $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
