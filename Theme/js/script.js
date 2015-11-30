@@ -1,3 +1,10 @@
+/* Carousel text animations */
+$('#myCarousel').on('slide.bs.carousel',function(){
+$('.carousel-caption').fadeOut(300);
+})
+$('#myCarousel').on('slid.bs.carousel',function(){
+ $('.carousel-caption').fadeIn(600);
+})
 
 $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
