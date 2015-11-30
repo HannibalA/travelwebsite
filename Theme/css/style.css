@@ -610,3 +610,34 @@ body {
 .navigation-slide {
 	cursor: pointer;
 }
+
+input {
+	max-width: 200px;
+	margin-left: 425px;
+}
+
+button {
+	background-color:#008B98;
+	/*border-radius: 25%;*/
+	outline-width: 0px;
+	outline-color: white;
+	border-left: 50%;
+	border-color:black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+button:hover {
+	background-color:#00E6E2;
+	/*border-radius: 25%;*/
+	outline-width: 0px;
+	outline-color: white;
+	border-left: 50%;
+	border-color:white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
