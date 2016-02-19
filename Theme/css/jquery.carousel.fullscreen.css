@@ -1,3 +1,5 @@
+$('.carousel').carousel({ pause: "false", interval: 2000 });
+
 @media (max-width: 768px) {
 	body {
 		margin: 0;

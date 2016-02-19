@@ -6,171 +6,52 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <!-- Carousel -->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="http://www.rosewoodhotels.com/en/~/media/Images/Rosewood_Hotels_and_Resorts/The_Carlyle_A_Rosewood_Hotel/gallery/hotel/carl_gallery_hotel_3.ashx" class="img-responsive" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Rosewood Hotels</h1>
+            <p class="lead">With 193 lavish rooms and suites, The Carlyle offers the exclusive ambiance of an Upper East Side pied-à-terre. This New York luxury hotel is a wonderful example of elegance and comfort.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="http://r-ec.bstatic.com/images/hotel/840x460/317/31789094.jpg" class="img-responsive" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>The Ritz-Carlton New York, Central Park</h1>
+            <p class="lead">Set in Midtown Manhattan, this elegant 1930s townhouse-style hotel overlooks Central Park</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
 <!--jumbotron-->
 <div class="jumbotron">
   <h1>travel website!</h1>
   <p>random thingsssssssss</p>
   <p><a class="btn btn-primary btn-lg" href="#" role="button">Looking for plane tickets?</a></p>
 
-<div class="page-container-responsive">
-  <div class="row row-condensed">
-
-    <div class="col-md-3 col-md-offset-1">
-      <div class="language-curr-picker clearfix space-2">
-        <div class="select select-large select-block row-space-2">
-    <label id="language-selector-label" class="screen-reader-only">
-    Choose language
-    </label>
-    <select class="language-selector" aria-labelledby="language-selector-label">
-    
-      <option value="id">Bahasa Indonesia</option>
-    
-      <option value="ms">Bahasa Melayu</option>
-    
-      <option value="ca">Català</option>
-    
-      <option value="da">Dansk</option>
-    
-      <option value="de">Deutsch</option>
-    
-      <option value="en" selected="">English</option>
-    
-      <option value="es">Español</option>
-    
-      <option value="el">Eλληνικά</option>
-    
-      <option value="fr">Français</option>
-    
-      <option value="it">Italiano</option>
-    
-      <option value="hu">Magyar</option>
-    
-      <option value="nl">Nederlands</option>
-    
-      <option value="no">Norsk</option>
-    
-      <option value="pl">Polski</option>
-    
-      <option value="pt">Português</option>
-    
-      <option value="fi">Suomi</option>
-    
-      <option value="sv">Svenska</option>
-    
-      <option value="tr">Türkçe</option>
-    
-      <option value="is">Íslenska</option>
-    
-      <option value="cs">Čeština</option>
-    
-      <option value="ru">Русский</option>
-    
-      <option value="th">ภาษาไทย</option>
-    
-      <option value="zh">中文 (简体)</option>
-    
-      <option value="zh-TW">中文 (繁體)</option>
-    
-      <option value="ja">日本語</option>
-    
-      <option value="ko">한국어</option>
-    
-  </select>
-  </div>
-</div>
-          
-<div class="select select-large select-block row-space-2">
-  <label id="currency-selector-label" class="screen-reader-only">Choose currency</label>
-  <select class="currency-selector" aria-labelledby="currency-selector-label">
-    
-      <option value="AED">AED</option>
-    
-      <option value="ARS">ARS</option>
-    
-      <option value="AUD">AUD</option>
-    
-      <option value="BGN">BGN</option>
-    
-      <option value="BRL">BRL</option>
-    
-      <option value="CAD">CAD</option>
-    
-      <option value="CHF">CHF</option>
-    
-      <option value="CNY">CNY</option>
-    
-      <option value="CRC">CRC</option>
-    
-      <option value="CZK">CZK</option>
-    
-      <option value="DKK">DKK</option>
-    
-      <option value="EUR">EUR</option>
-    
-      <option value="GBP">GBP</option>
-    
-      <option value="HKD">HKD</option>
-    
-      <option value="HRK">HRK</option>
-    
-      <option value="HUF">HUF</option>
-    
-      <option value="IDR">IDR</option>
-    
-      <option value="ILS">ILS</option>
-    
-      <option value="INR">INR</option>
-    
-      <option value="JPY">JPY</option>
-    
-      <option value="KRW">KRW</option>
-    
-      <option value="MAD">MAD</option>
-    
-      <option value="MXN">MXN</option>
-    
-      <option value="MYR">MYR</option>
-    
-      <option value="NOK">NOK</option>
-    
-      <option value="NZD">NZD</option>
-    
-      <option value="PEN">PEN</option>
-    
-      <option value="PHP">PHP</option>
-    
-      <option value="PLN">PLN</option>
-    
-      <option value="RON">RON</option>
-    
-      <option value="RUB">RUB</option>
-    
-      <option value="SEK">SEK</option>
-    
-      <option value="SGD">SGD</option>
-    
-      <option value="THB">THB</option>
-    
-      <option value="TRY">TRY</option>
-    
-      <option value="TWD">TWD</option>
-    
-      <option value="UAH">UAH</option>
-    
-      <option value="USD" selected="">USD</option>
-    
-      <option value="VND">VND</option>
-    
-      <option value="ZAR">ZAR</option>
-    
-  </select>
-      </div>
-     <div class="cx-number"></div>
-    </div>
-   </div>
-  </div>
-</div>
-<!--end of jumbotron -->
 <!--body-->
   <div class="container-fluid">
       <div class="row">
